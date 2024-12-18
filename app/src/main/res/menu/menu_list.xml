@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hu.bme.aut.recipecollection.list.ListActivity">
+    <item
+        android:id="@+id/menu_filter"
+        android:checkableBehavior="single"
+        android:title="@string/filter"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/filter_all"
+                    android:checked="true"
+                    android:title="@string/all" />
+                <item
+                    android:id="@+id/filter_starter"
+                    android:checked="false"
+                    android:title="@string/starter" />
+                <item
+                    android:id="@+id/filter_soup"
+                    android:checked="false"
+                    android:title="@string/soup" />
+                <item
+                    android:id="@+id/filter_maincourse"
+                    android:checked="false"
+                    android:title="@string/maincourse" />
+                <item
+                    android:id="@+id/filter_dessert"
+                    android:checked="false"
+                    android:title="@string/dessert" />
+                <item
+                    android:id="@+id/filter_drink"
+                    android:checked="false"
+                    android:title="@string/drink" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">RecipeCollection</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="new_recipe">New recipe</string>
+    <string name="name">Name</string>
+    <string name="category">Category: </string>
+    <string name="ingredients">Ingredients: </string>
+    <string name="preparation_time_in_minutes">Preparation time in minutes: </string>
+    <string name="preparation">Preparation: </string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="category_items">
+        <item>Starter</item>
+        <item>Soup</item>
+        <item>Main course</item>
+        <item>Dessert</item>
+        <item>Drink</item>
+    </string-array>
+
+    <string name="preparation_time">Preparation time: </string>
+    <string name="filter">Filter</string>
+    <string name="all">All</string>
+    <string name="starter">Starter</string>
+    <string name="soup">Soup</string>
+    <string name="maincourse">Main course</string>
+    <string name="dessert">Dessert</string>
+    <string name="drink">Drink</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="ready">Food is ready!</string>
+    <string name="begin_cooking">Begin cooking!</string>
+    <string name="are_you_ready">Are you ready?</string>
+    <string name="in_progress">In progress…</string>
+    <string name="to_make">Make</string>
+    <string name="search_recipes">Search for ingredients</string>
+    <string name="search_for">Search for commercial availability of</string>
+    <string name="search">Search</string>
+    <string name="warn_message">Choose recipes to make!</string>
+    <string name="empty_fields">No fields can be empty!</string>
+</resources>
